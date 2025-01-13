@@ -1,4 +1,4 @@
-# URL Inspector - Firefox Extension
+# URL Inspector - Firefox/Chrome Extension
 
 URL Inspector is a Firefox extension that scans webpages for embedded URLs and endpoints, detecting potential security vulnerabilities such as Open Redirects, XSS, and SQL Injection. It provides an easy-to-use interface to view, copy, and download the scanned URLs for further analysis.
 
