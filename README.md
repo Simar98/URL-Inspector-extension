@@ -1,42 +1,26 @@
-URL Inspector - Firefox Extension
-URL Inspector is a Firefox extension that scans webpages for embedded URLs and endpoints, detecting potential vulnerabilities like Open Redirects, XSS, and SQL Injection. Ideal for developers and security enthusiasts, it provides a quick way to analyze and save URLs.
+# URL Inspector - Firefox Extension
 
-Features
-Scan all URLs and endpoints on a webpage.
+URL Inspector is a Firefox extension that scans webpages for embedded URLs and endpoints, detecting potential security vulnerabilities such as Open Redirects, XSS, and SQL Injection. It provides an easy-to-use interface to view, copy, and download the scanned URLs for further analysis.
 
-Detect vulnerabilities in URLs.
+## Features
+- Scan all URLs and endpoints on a webpage.
+- Detect potential vulnerabilities in URLs.
+- Copy or download the list of URLs.
+- Dark-themed, user-friendly interface.
 
-Copy or download URLs for further analysis.
+## Installation
+1. Clone this repository.
+2. Open Firefox and go to `about:debugging`.
+3. Click "Load Temporary Add-on" and select the `manifest.json` file from this repository.
 
-Simple, dark-themed interface.
+## Usage
+1. Navigate to any webpage.
+2. Click the URL Inspector icon in the toolbar.
+3. View the scanned URLs and detected vulnerabilities.
+4. Use the "Copy URLs" or "Download URLs" buttons to save the results.
 
-How to Use
-Install the extension (or load it via about:debugging).
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-Navigate to any webpage.
-
-Click the URL Inspector icon in the toolbar.
-
-View scanned URLs and vulnerabilities.
-
-Copy or download the results.
-
-Why Use URL Inspector?
-Developers: Debug and analyze URLs in web apps.
-
-Security Researchers: Identify vulnerabilities for testing.
-
-Everyone: Explore URLs on any webpage.
-
-Installation
-Clone this repository.
-
-Open Firefox and go to about:debugging.
-
-Click "Load Temporary Add-on" and select the manifest.json file.
-
-Contributing
-Contributions are welcome! Open an issue or submit a pull request.
-
-License
-MIT License. See LICENSE for details.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
