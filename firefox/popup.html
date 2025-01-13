@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Scanner</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #00ff00;
+    }
+    h3 {
+      margin: 0;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 14px;
+      margin-right: 5px;
+    }
+    #results {
+      margin-top: 10px;
+      background-color: #2a2a2a;
+      padding: 10px;
+      border-radius: 5px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .url-item {
+      color: white;
+      margin: 5px 0;
+      padding: 5px;
+      background-color: #333;
+      border-radius: 3px;
+      word-break: break-all;
+    }
+    .vulnerability {
+      color: #ff6666;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div style="display:flex;justify-content:space-between;align-items:center;">
+    <h3>🔍 URL Scanner</h3>
+    <div>
+      <button id="closeWidget">Close</button>
+      <button id="downloadUrls">Download URLs</button>
+      <button id="copyUrls">Copy URLs</button>
+    </div>
+  </div>
+  <div id="results">Scanning...</div>
+  <script src="popup.js"></script>
+</body>
+</html>
